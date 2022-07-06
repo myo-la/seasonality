@@ -10,7 +10,7 @@ data_orig['month'] = pd.to_datetime(data_orig['month'], format='%d/%m/%Y')
 data_orig = data_orig[data_orig['month'] < "2022-01-01"]
 # data_orig = data_orig[data_orig['month'] > "2016-12-31"]
 
-#test#
+number = 4
 
 data_orig.set_index('month', inplace=True)
 
